@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tela de Login</title>
+    <link rel="stylesheet" href="tela-login.css">
+    
+<script type="text/JavaScript">
+
+    function teste() 
+    {
+        var a = document.getElementById("Nome_input").value;
+        var b = document.getElementById("Senha_input").value;
+
+        if ( a == "Lidiamoura" & b == "1234" )
+        {
+            alert ("Só sucesso!"); 
+        }
+        else
+        {
+            alert ("Só derrota!");
+        }
+    }
+
+</script>
+    
+</head>
+<body class="body">
+
+<div class="div">
+    <h1>Login</h1>
+    <br>
+    <input class= "input" type="text" placeholder="Nome" id="Nome_input">
+    <br><br>
+    <input class= "input" type="password" placeholder="Senha" id="Senha_input">
+    <br><br>
+    <button class="button , button:hover" onclick="teste()">Enviar</button>
+</div>
+
+
+</body>
+</html>

@@ -1,0 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #88caf7;
+}
+    
+.cabeçalho
+{
+    background-color: #34a1eb;
+    height: 50px;
+    display: block; 
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding-top: 15px;
+}
+
+
